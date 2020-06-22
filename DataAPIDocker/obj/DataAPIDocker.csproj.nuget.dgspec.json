@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\saroj singh\\source\\repos\\EFCoreInDocker_BASTA2019\\DataAPI_SQLContainer\\DataAPIDocker\\DataAPIDocker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\saroj singh\\source\\repos\\EFCoreInDocker_BASTA2019\\DataAPI_SQLContainer\\DataAPIDocker\\DataAPIDocker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saroj singh\\source\\repos\\EFCoreInDocker_BASTA2019\\DataAPI_SQLContainer\\DataAPIDocker\\DataAPIDocker.csproj",
+        "projectName": "DataAPIDocker",
+        "projectPath": "C:\\Users\\saroj singh\\source\\repos\\EFCoreInDocker_BASTA2019\\DataAPI_SQLContainer\\DataAPIDocker\\DataAPIDocker.csproj",
+        "packagesPath": "C:\\Users\\saroj singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saroj singh\\source\\repos\\EFCoreInDocker_BASTA2019\\DataAPI_SQLContainer\\DataAPIDocker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\saroj singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.0.2105168, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

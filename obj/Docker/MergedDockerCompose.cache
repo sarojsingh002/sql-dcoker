@@ -1,0 +1,22 @@
+services:
+  dataapidocker:
+    build:
+      context: C:\Users\saroj singh\source\repos\EFCoreInDocker_BASTA2019\DataAPI_SQLContainer
+      dockerfile: DataAPIDocker/Dockerfile
+    depends_on:
+    - db
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DB_PW: sarojsingh
+    image: dataapidocker
+    ports:
+    - target: 80
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: sarojsingh
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 1433
+      target: 1433
+version: '3.4'
