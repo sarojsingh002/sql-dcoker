@@ -1,0 +1,14 @@
+localsystem mein run kar with virtualbox mein minim 2gb ram de default wala docker vm ko
+docker-compose build
+docker-compose up
+
+docker ps karke jo image 80 ko route kar rha hain usko container id copy karke 
+
+
+|----> docker exec -it {container-id} sh
+inside containe curl 
+http://localhost/api/Magazines
+
+if is doesnt work simply docker-compose down and up again 
+
+follow the above steps again
